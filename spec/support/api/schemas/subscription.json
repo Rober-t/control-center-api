@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "number" },
+        "plan": { "type": "string" },
+        "state" : { "type": "string" }
+      }
+    }
+  }
+}

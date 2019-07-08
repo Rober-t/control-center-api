@@ -1,0 +1,12 @@
+<p style="padding-left: 25px">Hello <%= user.email %>,</p>
+
+<p style="padding-left: 25px">You have been requested to become the new owner of <%= user.organisation.name.capitalize %>.</p>
+
+<p style="padding-left: 25px">Please click the link below to accept this ownership transfer request.></p>
+
+<p style="padding-left: 25px"><a href="<%= Figaro.env.app_url %>/organisations/accept_transfer?transfer_token=<%= user.membership.transfer_token %>" target="_blank">Accept.</a></p>
+
+<p style="padding-left: 25px">Please contact us should you have any questions.</p>
+
+
+

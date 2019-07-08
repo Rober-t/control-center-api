@@ -14,7 +14,7 @@ It includes the following features:
 
 # Setup
 
-create the databases with `bundle exec rake db:create db:migrate`.
+Create the databases with `bundle exec rake db:create db:migrate`.
 
 ### DB
 
@@ -22,7 +22,7 @@ The aplication database is configured in a standard way using `database/config.y
 
 ### Console
 
-run `bin/console`
+Run `bin/console`
 
 ### Up and running
 
@@ -30,13 +30,13 @@ run `bin/console`
 
 ### Testing
 
-run the entire test suite:
+Run the entire test suite:
 
-run `bundle exec rspec`
+Run `bundle exec rspec`
 
-you can run individual test suites by specifying the filename in the run command:
+You can run individual test suites by specifying the filename in the run command:
 
-run `bundle exec rspec spec/path/to/spec.rb`
+Run `bundle exec rspec spec/path/to/spec.rb`
 
 ## Services
 
@@ -60,4 +60,4 @@ run `gem install mailcatcher`
 
 run `mailcatcher`
 
-then check out http://127.0.0.1:1080 to see the mail that's arrived so far.# control-center-api
+Then check out http://127.0.0.1:1080 to see the mail that's arrived so far.# control-center-api.

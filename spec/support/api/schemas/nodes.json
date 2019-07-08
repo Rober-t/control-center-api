@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "properties": {
+        "type": { "type": "string" },
+        "id": { "type": "number" },
+        "organisation_id": { "type": "number" },
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "verified": { "type": "boolean" }
+      }
+    }
+  }
+}

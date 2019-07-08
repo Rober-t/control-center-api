@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "required": ["type", "id", "email"],
+      "properties": {
+        "type": { "type": "string" },
+        "id": { "type": "number" },
+        "email": { "type": "string" },
+        "name": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

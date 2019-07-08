@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "properties": {
+        "type": { "type": "string" },
+        "id": { "type": "number" },
+        "ticket_id": { "type": "number" },
+        "author_id": { "type": "number" },
+        "author": { "type": "string" },
+        "body": { "type": "text" },
+        "created_at": { "type": "date-time"},
+        "updated_at": { "type": "date-time"}
+      }
+    }
+  }
+}
+

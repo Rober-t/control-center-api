@@ -1,0 +1,10 @@
+<p style="padding-left: 25px">Hello <%= user.email %>,</p>
+
+<p style="padding-left: 25px">Please click on the link below to confirm your account and complete your registration.</p>
+
+<p style="padding-left: 25px"><a href="<%= Figaro.env.app_url %>/confirm_account?token=<%= user.registration_token %>" target="_blank">Confirm my account</a></p>
+
+<p style="padding-left: 25px">Please feel free to contact us should you have any questions.</p>
+
+
+
